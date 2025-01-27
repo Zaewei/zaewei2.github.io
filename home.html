@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to PizzaTime!</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+	<!-- header start -->
+
+	<header class="headertopre">
+
+		<a href="#" class="logo">
+			<img src="images/logo.png" alt="">
+		</a>
+
+		<nav class="navbarko">
+			<a href="#home">Home</a>
+			<a href="#about">About</a>
+			<a href="#menu">Menu</a>
+			<a href="#contact">Contact Us</a>
+			<a href="#founder">Founder</a>
+		</nav>
+
+		<div class="icons">
+			<div class="fas fa-search" id="search-btn"></div>
+			<div class="fas fa-shopping-cart" id="cart-btn"></div>
+			<div class="fas fa-bars" id="menu-btn"></div>
+		</div>
+
+		<div class="searchbarthing">
+			<input type="search" id="searchbox" placeholder="search here...">
+			<label for="searchbox" class="fas fa-search"></label>
+		</div>
+
+		<div class="cart-container">
+			<div class="cartstuff">
+				<span class="fas fa-times"></span>
+				<img src="images/pizza1.jpg" alt="">
+				<div class="content">
+					<h3>cart item 1</h3>
+					<div class="price">$799</div> 
+				</div>
+			</div>
+			<div class="cartstuff">
+				<span class="fas fa-times"></span>
+				<img src="images/pizza1.jpg" alt="">
+				<div class="content">
+					<h3>cart item 2</h3>
+					<div class="price">$799</div> 
+				</div>
+			</div>
+			<div class="cartstuff">
+				<span class="fas fa-times"></span>
+				<img src="images/pizza1.jpg" alt="">
+				<div class="content">
+					<h3>cart item 3</h3>
+					<div class="price">$799</div> 
+				</div>
+			</div>
+			<div class="cartstuff">
+				<span class="fas fa-times"></span>
+				<img src="images/pizza1.jpg" alt="">
+				<div class="content">
+					<h3>cart item 4</h3>
+					<div class="price">$799</div> 
+				</div>
+			</div>
+			<a href="#" class="boton">Checkout</a>
+		</div>
+
+	</header>
+
+	<!-- header end -->
+
+	<!-- home start -->
+
+	<section class="home" id="home">
+
+		<video autoplay muted loop id="pizzavid">
+			<source src="videos/pizzavid.mp4" type="video/mp4">
+		</video>
+
+		<div class="content">
+			<br><br><br><br><br><br><br><br>
+			<h3><span>Any Time is Pizza Time!</span></h3>
+			<p>Ready to elevate your pizza experience? Our freshly crafted pizzas are designed to delight—crisp, flavorful, and made just the way you love. Whether for a quick meal, a team gathering, or a special occasion, we’re here to serve excellence every time.</p>
+			<a href="#menu" class="boton">order today!</a>
+		</div>
+	
+	</section>
+
+	<!-- home end -->
+
+	<!-- about us start -->
+	
+	<section class="about" id="about">
+
+		<h1 class="heading"> <span>about</span> us </h1>
+
+		<div class="row">
+
+			<div class="image">
+				<img src="images/pizza1.jpg" alt="">
+			</div>
+
+			<div class="content">
+				<h3>what makes our pizzas so special?</h3>
+				<p>It’s our passion for perfection! From the finest, freshest ingredients to our signature recipes, every pizza is crafted with care. Add in our dedication to quality and a touch of culinary artistry, and you’ll taste the difference in every bite.</p>
+				<a href="#founder" class="boton">learn more</a>
+			</div>
+		</div>
+
+	</section>
+
+	<!-- about us end -->
+
+	<!-- menu start -->
+
+	<section class="menu" id="menu">
+
+		<h1 class="heading"> our <span>menu</span> </h1>
+
+		<div class="box-container">
+
+			<div class="box">
+				<img src="images/neapolitanpizza.jpg" alt="">
+				<h3>Italian Neapolitan Pizza</h3>
+				<p>the classic crispy and chewy italian neapolitan pizza.</p>
+				<div class="price">₱799</div>
+				<a href="#menu" class="boton">add to cart</a>
+			</div>
+
+			<div class="box">
+				<img src="images/hawaiianpizza.jpg" alt="">
+				<h3>Classic Hawaiian</h3>
+				<p>the classic hawaiian pizza that's sweet and cheesy!</p>
+				<div class="price">₱799</div>
+				<a href="#menu" class="boton">add to cart</a>
+			</div>
+
+			<div class="box">
+				<img src="images/margheritapizza.jpg" alt="">
+				<h3>Ferdi's Pizza</h3>
+				<p>Tangy and sweet with fresh mozzarella cheese and basil.</p>
+				<div class="price">₱799</div>
+				<a href="#menu" class="boton">add to cart</a>
+			</div>
+
+			<div class="box">
+				<img src="images/pepperonipizza.jpg" alt="">
+				<h3>Classic Pepperoni Pizza</h3>
+				<p>the classic pepperoni, savory, smoky with a spicy kick.</p>
+				<div class="price">₱799</div>
+				<a href="#menu" class="boton">add to cart</a>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- menu end -->
+
+	<!-- contact start -->
+
+	<section class="contact" id="contact">
+
+		<h1 class="heading"> <span>contact</span> us </h1>
+
+			<div class="row">
+
+				<div class="image">
+					<img src="images/pizza2.jpg" alt="0">
+				</div>
+
+				<form action="">
+					<h3>have a concern? get in touch!</h3>
+					<div class="inputboxto">
+						<span class="fas fa-user"></span>
+						<input type="text" placeholder="name">
+					</div>
+					<div class="inputboxto">
+						<span class="fas fa-envelope"></span>
+						<input type="email" placeholder="email">
+					</div>
+					<div class="inputboxto">
+						<span class="fas fa-phone"></span>
+						<input type="number" placeholder="number">
+					</div>
+					<input type="submit" value="contact now" class="boton">
+				</form>
+
+			</div>
+		
+	</section>
+
+	<!-- contact end -->
+
+	<!-- founder start -->
+
+	<section class="founder" id="founder">
+
+        <h1 class="heading"> our <span>founder</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <h1>the visionary behind AnyTime pizza</h1>
+            <img src="images/founderpicture.jpg" alt="">
+            <h3>Ferdinand Miguel Villanueva</h1>
+            <h3>20th August, 2005</h3>
+            <p>Ferdinand Villanueva is the creative force and heart behind AnyTime Pizza©, a brand that has redefined the art of pizza-making. With a lifelong passion for culinary excellence and an entrepreneurial spirit, Ferdinand Villanueva set out to create more than just a pizza company—they aimed to craft an experience that brings people together,<b> one slice at a time.</b></p>
+        </div>
+
+	</div>
+
+	</section>
+
+	<!-- foot start -->
+
+	<section class="footer">
+
+		<div class="sharestuff">
+			<a href="https://www.facebook.com/robert.trinidad.549" class="fab fa-facebook"></a>
+			<a href="https://x.com/zaewei" class="fab fa-twitter"></a>
+			<a href="https://www.instagram.com/zaeweiwastaken/" class="fab fa-instagram"></a>
+		</div>
+
+		<div class="links">
+			<a href="#">home</a>
+			<a href="#">about</a>
+			<a href="#">menu</a>
+			<a href="#">contact</a>
+			<a href="#">founder</a>
+		</div>
+
+		<div class="credit">created by <span>Robert Trinidad</span> || all rights reserved</div>
+
+	</section>
+
+
+	<script src="script/script.js"></script>
+
+</body>
+</html>
